@@ -1,15 +1,16 @@
 艦載機計算機の隠し味 Kancolle Aircraft Calculator Expansion
 ======================================
 
-[艦載機計算機](http://www.kancolle-calc.net/aircrafts.html) に機能を追加する UserScript です。
+[艦載機計算機](http://www.kancolle-calc.net/aircrafts.html) に機能を追加する Chrome 拡張です。
 
 ---
 
-###この UserScript について
+###この Chrome 拡張について
 
-　艦載機計算機の隠し味（以下、本スクリプト）は、 [艦載機計算機](http://www.kancolle-calc.net/aircrafts.html) 用の Chrome 用 UserScript です。表示されている編成と載せている装備、および選択されているマップをセットにして複数保存する機能を追加します。また、独自のUrlを生成し、本スクリプトをインストールしているユーザー同士で編成状況を伝え合うことができます。ダウンロードは[**こちら**](https://raw.githubusercontent.com/44kana/Kancolle-Aircraft-Calculator-Expansion/master/Kancolle-Aircraft-Calculator-Expansion.user.js)から。
+　艦載機計算機の隠し味（以下、本拡張）は、 [艦載機計算機](http://www.kancolle-calc.net/aircrafts.html) 用の Chrome 用 機能拡張 です。表示されている編成と載せている装備、および選択されているマップをセットにして複数保存する機能を追加します。また、独自のUrlを生成し、本拡張をインストールしているユーザー同士で編成状況を伝え合うことができます。
 
-　デベロッパーモードの最新 Chrome Stable 版 で開発しています。エクステンションを挿んだり Firefox で使おうとしても（試してないから分からないけど多分）動きません。みんな Chrome 使ってるよね？だって艦これ推奨ブラウザだもん！
+　デベロッパーモードの最新 Chrome Stable 版 で開発しています。  
+　スクリプト部分を用いて UserScript として使用したい場合は[**こちら**](https://raw.githubusercontent.com/44kana/Kancolle-Aircraft-Calculator-Expansion/master/Kancolle-Aircraft-Calculator-Expansion.user.js)からスクリプトをダウンロードしてください。（試してないから分からないけど）エクステンションを挿んだり Firefox で使えたりするかも？みんな Chrome 使ってるよね？だって艦これ推奨ブラウザだもん！
 
 　想定している用途：
 
@@ -20,7 +21,7 @@
 
 ###使いかた
 
-　Chrome に 本スクリプト をインストールし [艦載機計算機](http://www.kancolle-calc.net/aircrafts.html) へアクセスすると、右上に操作盤が出てきます。
+　Chrome に 本拡張 をインストールし [艦載機計算機](http://www.kancolle-calc.net/aircrafts.html) へアクセスすると、右上に操作盤が出てきます。
 
 　自由に艦隊を編成し、**バインダー**にマウスを乗せると表示が変わり [追加] と[保存] が表示されます。
 
@@ -30,7 +31,7 @@
 バインダーに追加された情報は、マウスを乗せコマンドをクリックすることで操作できます。
 
 * 編 : バインダーに表示されている編成名を**編集**します。
-* Ur : 本スクリプトをインストールされているブラウザで利用できる**Url**を生成します。コピーして掲示板やチャット等での編成状況の提示にご利用ください。
+* Ur : 本拡張をインストールされているブラウザで利用できる**Url**を生成します。コピーして掲示板やチャット等での編成状況の提示にご利用ください。
 * ↑ : 編成情報を1つ**上**に移動します。
 * ↓ : 編成情報を１つ**下**に移動します。
 * 書 : 該当する箇所に編成状況を**上書き**します。
@@ -50,6 +51,6 @@
 
 ###おやくそく
 
-　本スクリプトは艦載機計算機の許可を**取っていない完全な野良スクリプト**です。  
-　本スクリプトは、艦これや艦載機計算機のデータ構造や機能をふんだんに活用しているため、艦これまたは艦載機計算機のデータ構造とか処理手法とかが変わると盛大に爆死しますが、本スクリプトの使用に因る不具合の報告は艦載機計算機に**絶対に**送らないようお願いします。  
+　本拡張は艦載機計算機の許可を**取っていない完全な野良拡張**です。  
+　本拡張は、艦これや艦載機計算機のデータ構造や機能をふんだんに活用しているため、艦これまたは艦載機計算機のデータ構造とか処理手法とかが変わると盛大に爆死しますが、本拡張の使用に因る不具合の報告は艦載機計算機に**絶対に**送らないようお願いします。  
 　ご意見･ご感想･ご要望･ご文句･ご罵倒は Twitter [**@44kana**](https://twitter.com/44kana) か [**Github**](https://github.com/44kana/Kancolle-Aircraft-Calculator-Expansion/issues) まで。
